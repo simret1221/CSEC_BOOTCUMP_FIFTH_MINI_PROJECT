@@ -1,0 +1,12 @@
+.task-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+
+.completed .task-text {
+  text-decoration: line-through;
+  color: #888;
+}
